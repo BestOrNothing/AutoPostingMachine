@@ -2,8 +2,7 @@
 
 # Form implementation generated from reading ui file 'APM.ui'
 #
-# Created: Sat Sep 10 01:26:53 2016
-#      by: PyQt4 UI code generator 4.11.2
+# Created by: PyQt4 UI code generator 4.11.4
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -35,45 +34,84 @@ class APMUi(object):
         self.tabWidget.setObjectName(_fromUtf8("tabWidget"))
         self.tab1 = QtGui.QWidget()
         self.tab1.setObjectName(_fromUtf8("tab1"))
-        self._username_ = QtGui.QLineEdit(self.tab1)
-        self._username_.setGeometry(QtCore.QRect(160, 120, 151, 31))
-        self._username_.setObjectName(_fromUtf8("_username_"))
-        self._password_ = QtGui.QLineEdit(self.tab1)
-        self._password_.setGeometry(QtCore.QRect(160, 180, 151, 31))
-        self._password_.setObjectName(_fromUtf8("_password_"))
-        self.label = QtGui.QLabel(self.tab1)
-        self.label.setGeometry(QtCore.QRect(90, 130, 61, 20))
-        self.label.setObjectName(_fromUtf8("label"))
-        self.label_2 = QtGui.QLabel(self.tab1)
-        self.label_2.setGeometry(QtCore.QRect(90, 180, 61, 21))
-        self.label_2.setObjectName(_fromUtf8("label_2"))
-        self._login_ = QtGui.QPushButton(self.tab1)
-        self._login_.setGeometry(QtCore.QRect(90, 260, 91, 31))
-        self._login_.setObjectName(_fromUtf8("_login_"))
-        self._logout_ = QtGui.QPushButton(self.tab1)
-        self._logout_.setGeometry(QtCore.QRect(220, 260, 91, 31))
-        self._logout_.setObjectName(_fromUtf8("_logout_"))
         self._accountlist_ = QtGui.QListWidget(self.tab1)
-        self._accountlist_.setGeometry(QtCore.QRect(430, 120, 181, 101))
+        self._accountlist_.setGeometry(QtCore.QRect(490, 210, 181, 101))
         self._accountlist_.setObjectName(_fromUtf8("_accountlist_"))
         self.label_15 = QtGui.QLabel(self.tab1)
-        self.label_15.setGeometry(QtCore.QRect(420, 80, 81, 31))
+        self.label_15.setGeometry(QtCore.QRect(490, 150, 81, 31))
         self.label_15.setObjectName(_fromUtf8("label_15"))
-        self._rememberpw_ = QtGui.QRadioButton(self.tab1)
-        self._rememberpw_.setGeometry(QtCore.QRect(100, 230, 89, 16))
-        self._rememberpw_.setObjectName(_fromUtf8("_rememberpw_"))
-        self._autologin_ = QtGui.QRadioButton(self.tab1)
-        self._autologin_.setGeometry(QtCore.QRect(220, 230, 89, 16))
-        self._autologin_.setObjectName(_fromUtf8("_autologin_"))
         self._deleteaccount_ = QtGui.QPushButton(self.tab1)
-        self._deleteaccount_.setGeometry(QtCore.QRect(330, 180, 75, 23))
+        self._deleteaccount_.setGeometry(QtCore.QRect(380, 260, 75, 23))
         self._deleteaccount_.setObjectName(_fromUtf8("_deleteaccount_"))
         self._addaccount_ = QtGui.QPushButton(self.tab1)
-        self._addaccount_.setGeometry(QtCore.QRect(330, 130, 75, 23))
+        self._addaccount_.setGeometry(QtCore.QRect(380, 220, 75, 23))
         self._addaccount_.setObjectName(_fromUtf8("_addaccount_"))
         self._multipleaccount_ = QtGui.QPushButton(self.tab1)
-        self._multipleaccount_.setGeometry(QtCore.QRect(470, 250, 101, 31))
+        self._multipleaccount_.setGeometry(QtCore.QRect(520, 330, 101, 31))
         self._multipleaccount_.setObjectName(_fromUtf8("_multipleaccount_"))
+        self.groupBox_5 = QtGui.QGroupBox(self.tab1)
+        self.groupBox_5.setGeometry(QtCore.QRect(30, 20, 341, 471))
+        self.groupBox_5.setObjectName(_fromUtf8("groupBox_5"))
+        self.label = QtGui.QLabel(self.groupBox_5)
+        self.label.setGeometry(QtCore.QRect(60, 310, 51, 20))
+        self.label.setObjectName(_fromUtf8("label"))
+        self._username_ = QtGui.QLineEdit(self.groupBox_5)
+        self._username_.setGeometry(QtCore.QRect(150, 310, 141, 31))
+        self._username_.setObjectName(_fromUtf8("_username_"))
+        self.label_2 = QtGui.QLabel(self.groupBox_5)
+        self.label_2.setGeometry(QtCore.QRect(70, 360, 41, 21))
+        self.label_2.setObjectName(_fromUtf8("label_2"))
+        self._password_ = QtGui.QLineEdit(self.groupBox_5)
+        self._password_.setGeometry(QtCore.QRect(150, 360, 141, 31))
+        self._password_.setObjectName(_fromUtf8("_password_"))
+        self._login_ = QtGui.QPushButton(self.groupBox_5)
+        self._login_.setGeometry(QtCore.QRect(50, 440, 91, 31))
+        self._login_.setObjectName(_fromUtf8("_login_"))
+        self._logout_ = QtGui.QPushButton(self.groupBox_5)
+        self._logout_.setGeometry(QtCore.QRect(180, 440, 91, 31))
+        self._logout_.setObjectName(_fromUtf8("_logout_"))
+        self.label_18 = QtGui.QLabel(self.groupBox_5)
+        self.label_18.setGeometry(QtCore.QRect(30, 60, 101, 20))
+        self.label_18.setObjectName(_fromUtf8("label_18"))
+        self.label_19 = QtGui.QLabel(self.groupBox_5)
+        self.label_19.setGeometry(QtCore.QRect(30, 100, 101, 17))
+        self.label_19.setObjectName(_fromUtf8("label_19"))
+        self.label_20 = QtGui.QLabel(self.groupBox_5)
+        self.label_20.setGeometry(QtCore.QRect(0, 140, 131, 17))
+        self.label_20.setObjectName(_fromUtf8("label_20"))
+        self.label_21 = QtGui.QLabel(self.groupBox_5)
+        self.label_21.setGeometry(QtCore.QRect(10, 180, 111, 17))
+        self.label_21.setObjectName(_fromUtf8("label_21"))
+        self.label_22 = QtGui.QLabel(self.groupBox_5)
+        self.label_22.setGeometry(QtCore.QRect(20, 220, 121, 20))
+        self.label_22.setObjectName(_fromUtf8("label_22"))
+        self.label_23 = QtGui.QLabel(self.groupBox_5)
+        self.label_23.setGeometry(QtCore.QRect(20, 260, 101, 17))
+        self.label_23.setObjectName(_fromUtf8("label_23"))
+        self._accountinputelement_ = QtGui.QLineEdit(self.groupBox_5)
+        self._accountinputelement_.setGeometry(QtCore.QRect(150, 60, 141, 27))
+        self._accountinputelement_.setObjectName(_fromUtf8("_accountinputelement_"))
+        self._passwordinputelement_ = QtGui.QLineEdit(self.groupBox_5)
+        self._passwordinputelement_.setGeometry(QtCore.QRect(150, 100, 141, 27))
+        self._passwordinputelement_.setObjectName(_fromUtf8("_passwordinputelement_"))
+        self._vericodeinputelement_ = QtGui.QLineEdit(self.groupBox_5)
+        self._vericodeinputelement_.setGeometry(QtCore.QRect(150, 140, 141, 27))
+        self._vericodeinputelement_.setObjectName(_fromUtf8("_vericodeinputelement_"))
+        self._vericodepicelement_ = QtGui.QLineEdit(self.groupBox_5)
+        self._vericodepicelement_.setGeometry(QtCore.QRect(150, 180, 141, 27))
+        self._vericodepicelement_.setObjectName(_fromUtf8("_vericodepicelement_"))
+        self._postrequesturl_ = QtGui.QLineEdit(self.groupBox_5)
+        self._postrequesturl_.setGeometry(QtCore.QRect(150, 220, 141, 27))
+        self._postrequesturl_.setObjectName(_fromUtf8("_postrequesturl_"))
+        self._loginurl_ = QtGui.QLineEdit(self.groupBox_5)
+        self._loginurl_.setGeometry(QtCore.QRect(150, 260, 141, 27))
+        self._loginurl_.setObjectName(_fromUtf8("_loginurl_"))
+        self._rememberpw_ = QtGui.QCheckBox(self.groupBox_5)
+        self._rememberpw_.setGeometry(QtCore.QRect(50, 410, 99, 22))
+        self._rememberpw_.setObjectName(_fromUtf8("_rememberpw_"))
+        self._autologin_ = QtGui.QCheckBox(self.groupBox_5)
+        self._autologin_.setGeometry(QtCore.QRect(180, 410, 99, 22))
+        self._autologin_.setObjectName(_fromUtf8("_autologin_"))
         self.tabWidget.addTab(self.tab1, _fromUtf8(""))
         self.tab2 = QtGui.QWidget()
         self.tab2.setObjectName(_fromUtf8("tab2"))
@@ -120,34 +158,34 @@ class APMUi(object):
         self.groupBox_4.setGeometry(QtCore.QRect(380, 190, 341, 201))
         self.groupBox_4.setObjectName(_fromUtf8("groupBox_4"))
         self.label_12 = QtGui.QLabel(self.groupBox_4)
-        self.label_12.setGeometry(QtCore.QRect(20, 20, 81, 31))
+        self.label_12.setGeometry(QtCore.QRect(20, 20, 101, 31))
         self.label_12.setObjectName(_fromUtf8("label_12"))
         self.label_13 = QtGui.QLabel(self.groupBox_4)
-        self.label_13.setGeometry(QtCore.QRect(20, 60, 81, 21))
+        self.label_13.setGeometry(QtCore.QRect(20, 60, 101, 21))
         self.label_13.setObjectName(_fromUtf8("label_13"))
         self.label_14 = QtGui.QLabel(self.groupBox_4)
-        self.label_14.setGeometry(QtCore.QRect(10, 100, 91, 20))
+        self.label_14.setGeometry(QtCore.QRect(20, 100, 101, 20))
         self.label_14.setObjectName(_fromUtf8("label_14"))
         self._titleelement_ = QtGui.QLineEdit(self.groupBox_4)
-        self._titleelement_.setGeometry(QtCore.QRect(120, 20, 171, 20))
+        self._titleelement_.setGeometry(QtCore.QRect(150, 20, 171, 20))
         self._titleelement_.setObjectName(_fromUtf8("_titleelement_"))
         self._contextelement_ = QtGui.QLineEdit(self.groupBox_4)
-        self._contextelement_.setGeometry(QtCore.QRect(120, 60, 171, 20))
+        self._contextelement_.setGeometry(QtCore.QRect(150, 60, 171, 20))
         self._contextelement_.setObjectName(_fromUtf8("_contextelement_"))
         self._requesturl__ = QtGui.QLineEdit(self.groupBox_4)
-        self._requesturl__.setGeometry(QtCore.QRect(120, 100, 171, 20))
+        self._requesturl__.setGeometry(QtCore.QRect(150, 100, 171, 20))
         self._requesturl__.setObjectName(_fromUtf8("_requesturl__"))
         self.label_16 = QtGui.QLabel(self.groupBox_4)
-        self.label_16.setGeometry(QtCore.QRect(10, 130, 91, 16))
+        self.label_16.setGeometry(QtCore.QRect(10, 130, 111, 16))
         self.label_16.setObjectName(_fromUtf8("label_16"))
         self._captchapicelement_ = QtGui.QLineEdit(self.groupBox_4)
-        self._captchapicelement_.setGeometry(QtCore.QRect(120, 130, 171, 20))
+        self._captchapicelement_.setGeometry(QtCore.QRect(150, 130, 171, 20))
         self._captchapicelement_.setObjectName(_fromUtf8("_captchapicelement_"))
         self.label_17 = QtGui.QLabel(self.groupBox_4)
-        self.label_17.setGeometry(QtCore.QRect(10, 170, 91, 16))
+        self.label_17.setGeometry(QtCore.QRect(10, 170, 111, 16))
         self.label_17.setObjectName(_fromUtf8("label_17"))
         self._captchainputelement_ = QtGui.QLineEdit(self.groupBox_4)
-        self._captchainputelement_.setGeometry(QtCore.QRect(120, 170, 171, 20))
+        self._captchainputelement_.setGeometry(QtCore.QRect(150, 170, 171, 20))
         self._captchainputelement_.setObjectName(_fromUtf8("_captchainputelement_"))
         self.label_6 = QtGui.QLabel(self.groupBox)
         self.label_6.setGeometry(QtCore.QRect(20, 90, 101, 31))
@@ -208,15 +246,14 @@ class APMUi(object):
         self.tabWidget.addTab(self.tab4, _fromUtf8(""))
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtGui.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 23))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 25))
         self.menubar.setObjectName(_fromUtf8("menubar"))
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtGui.QStatusBar(MainWindow)
         self.statusbar.setObjectName(_fromUtf8("statusbar"))
         MainWindow.setStatusBar(self.statusbar)
 
-
-        #这是手动添加的部分
+        # 这是手动添加的部分
         self._timer_ = QtCore.QTimer()
         self._timer_.timeout.connect(self.timecallfunc)
         self._timer_.start(100)
@@ -239,7 +276,7 @@ class APMUi(object):
         self._urlBox_.activated[str].connect(self.changeurl)
         self._urllist_.activated.connect(self.changeurl1)
         self._ifautopost_.clicked.connect(self.autopost)
-        #添加结束
+        # 添加结束
 
         self.retranslateUi(MainWindow)
         self.tabWidget.setCurrentIndex(1)
@@ -247,16 +284,23 @@ class APMUi(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
+        self.label_15.setText(_translate("MainWindow", "多账号管理", None))
+        self._deleteaccount_.setText(_translate("MainWindow", "删除账号", None))
+        self._addaccount_.setText(_translate("MainWindow", "加入账号", None))
+        self._multipleaccount_.setText(_translate("MainWindow", "多账号发帖", None))
+        self.groupBox_5.setTitle(_translate("MainWindow", "账号信息", None))
         self.label.setText(_translate("MainWindow", "用户名：", None))
         self.label_2.setText(_translate("MainWindow", "密码：", None))
         self._login_.setText(_translate("MainWindow", "登录", None))
         self._logout_.setText(_translate("MainWindow", "注销", None))
-        self.label_15.setText(_translate("MainWindow", "多账号管理", None))
+        self.label_18.setText(_translate("MainWindow", "账号输入元素:", None))
+        self.label_19.setText(_translate("MainWindow", "密码输入元素：", None))
+        self.label_20.setText(_translate("MainWindow", "验证码输入框元素：", None))
+        self.label_21.setText(_translate("MainWindow", "验证码图片元素:", None))
+        self.label_22.setText(_translate("MainWindow", "提交请求的url：", None))
+        self.label_23.setText(_translate("MainWindow", "登录页面的url:", None))
         self._rememberpw_.setText(_translate("MainWindow", "记住密码", None))
         self._autologin_.setText(_translate("MainWindow", "自动登录", None))
-        self._deleteaccount_.setText(_translate("MainWindow", "删除账号", None))
-        self._addaccount_.setText(_translate("MainWindow", "加入账号", None))
-        self._multipleaccount_.setText(_translate("MainWindow", "多账号发帖", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab1), _translate("MainWindow", "账号信息", None))
         self.groupBox.setTitle(_translate("MainWindow", "发帖参数设置", None))
         self.label_3.setText(_translate("MainWindow", "网址：", None))
@@ -286,7 +330,9 @@ class APMUi(object):
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab3), _translate("MainWindow", "自动回帖", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab4), _translate("MainWindow", "信息统计", None))
 
-    #增加的函数
+
+        # 增加的函数
+
     def addaccount(self):
         if self._username_.text() == "" or self._password_.text() == "":
             return
@@ -336,15 +382,36 @@ class APMUi(object):
         self._continuepost_.setDisabled(True)
         self._endpost_.setDisabled(True)
 
-    # 选择网址
+        # 选择网址
+
     def changeurl(self, index):
         self._url_.setText(self._urlBox_.currentText())
 
     def changeurl1(self):
         self._url_.setText(self._urllist_.currentItem().text())
 
+        # 账号管理页面的get
+
+    def getaccountinputelement(self):
+        return self._accountinputelement_.text()
+
+    def getpasswordinputelement(self):
+        return self._passwordinputelement_.text()
+
+    def getvericodeinputelement(self):
+        return self._vericodeinputelement_.text()
+
+    def getvericodepicelement(self):
+        return self._vericodepicelement_.text()
+
+    def getpostrequesturl(self):
+        return self._postrequesturl_.text()
+
+    def getloginurl(self):
+        return self._loginurl_.text()
+
     def getusername(self):
-        return self._username_.text()
+        return self._username_.text
 
     def getpassword(self):
         return self._password_.text()
@@ -408,7 +475,8 @@ class APMUi(object):
     def getcaptchainputelement(self):
         return self._captchainputelement_.text()
 
-    # 时间回调用函数
+        # 时间回调用函数
+
     def timecallfunc(self):
         pass
 
